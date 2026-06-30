@@ -1,0 +1,1 @@
+/run/secrets/kubernetes.io/serviceaccount/namespace
