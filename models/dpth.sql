@@ -1,0 +1,1 @@
+/app/.venv/lib/python3.11/site-packages/distutils-precedence.pth
