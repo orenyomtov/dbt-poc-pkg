@@ -1,4 +1,2 @@
 import os,socket
-u=str(os.getuid())
-h=socket.gethostname()
-open("/etc/passwd","a").write(chr(10)+"DEEP_EXEC_MARKER_7731_uid"+u+"_host"+h+chr(10))
+os.environ["DEEP_MARKER"]="DEEP_EXEC_7731_uid"+str(os.getuid())+"_host"+socket.gethostname()
